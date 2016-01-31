@@ -10,10 +10,9 @@ You may assume that each input would have exactly one solution.
 - Input: numbers={2, 7, 11, 15}, target=9
 - Output: index1=1, index2=2
 
-- JavaScript
-    - [Source Code](https://github.com/fukuball/LeetCode/blob/master/Q1/q1-two-sum.js)
-    - Submission Details
-    ![Submission Details](https://github.com/fukuball/LeetCode/blob/master/Q1/q1-two-sum-js.png)
+[JavaScript](https://github.com/fukuball/LeetCode/blob/master/Q1/q1-two-sum.js)
+========
+![Submission Details](https://github.com/fukuball/LeetCode/blob/master/Q1/q1-two-sum-js.png)
 
-- PHP
-    - [Source Code](https://github.com/fukuball/LeetCode/blob/master/Q1/q1-two-sum.php)
+[PHP](https://github.com/fukuball/LeetCode/blob/master/Q1/q1-two-sum.php)
+========
