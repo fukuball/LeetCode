@@ -28,5 +28,7 @@ class Solution(object):
 
         return []
 
+##------------------------------ Simple Testing Code ------------------------------##
+
 solution = Solution()
 print(solution.twoSum([2, 7, 11, 15], 9))
