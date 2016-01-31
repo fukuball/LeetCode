@@ -7,6 +7,10 @@ You are given two linked lists representing two non-negative numbers. The digits
 - Input: (2 -> 4 -> 3) + (5 -> 6 -> 4)
 - Output: 7 -> 0 -> 8
 
+[Python Version](https://github.com/fukuball/LeetCode/blob/master/Q2/q2-add-two-numbers.py)
+========
+![Submission Details](https://github.com/fukuball/LeetCode/blob/master/Q2/q2-add-two-numbers-py.png)
+
 [JavaScript Version](https://github.com/fukuball/LeetCode/blob/master/Q2/q2-add-two-numbers.js)
 ========
 ![Submission Details](https://github.com/fukuball/LeetCode/blob/master/Q2/q2-add-two-numbers-js.png)
