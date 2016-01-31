@@ -11,6 +11,10 @@ You may assume that each input would have exactly one solution.
 - Input: numbers={2, 7, 11, 15}, target=9
 - Output: index1=1, index2=2
 
+[Python Version](https://github.com/fukuball/LeetCode/blob/master/Q1/q1-two-sum.py)
+========
+![Submission Details](https://github.com/fukuball/LeetCode/blob/master/Q1/q1-two-sum-py.png)
+
 [JavaScript Version](https://github.com/fukuball/LeetCode/blob/master/Q1/q1-two-sum.js)
 ========
 ![Submission Details](https://github.com/fukuball/LeetCode/blob/master/Q1/q1-two-sum-js.png)
