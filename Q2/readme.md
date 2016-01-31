@@ -9,7 +9,7 @@ You are given two linked lists representing two non-negative numbers. The digits
 
 [JavaScript Version](https://github.com/fukuball/LeetCode/blob/master/Q2/q2-add-two-numbers.js)
 ========
-![Submission Details](https://github.com/fukuball/LeetCode/blob/master/Q1/q2-add-two-numbers-js.png)
+![Submission Details](https://github.com/fukuball/LeetCode/blob/master/Q2/q2-add-two-numbers-js.png)
 
 [PHP Version](https://github.com/fukuball/LeetCode/blob/master/Q2/q2-add-two-numbers.php)
 ========

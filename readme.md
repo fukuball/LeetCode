@@ -5,6 +5,7 @@ My practice on [LeetCode](https://leetcode.com/).
 Index
 =========
 - Q1 [Two Sum](https://github.com/fukuball/LeetCode/tree/master/Q1) - Difficulty: Medium
+- Q2 [Add Two Numbers](https://github.com/fukuball/LeetCode/tree/master/Q2) - Difficulty: Medium
 
 License
 =========
