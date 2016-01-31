@@ -4,6 +4,7 @@ My practice on [LeetCode](https://leetcode.com/).
 
 Index
 =========
+- ## Q1 [Two Sum](https://github.com/fukuball/LeetCode/tree/master/Q1)
 
 License
 =========
