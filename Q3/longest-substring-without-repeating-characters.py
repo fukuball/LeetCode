@@ -14,15 +14,21 @@ class Solution(object):
         :rtype: int
         """
 
-        longest_substring = []
+        longest_substring_length = [0]
 
-        for c in s:
-            if c in longest_substring:
-                return len(longest_substring)
-            else:
-                longest_substring.append(c)
+        for i in range(len(s)):
+            sub = s[i:]
+            if len(sub) <= max(longest_substring_length):
+                break
+            longest_substring = []
+            for c in sub:
+                if c in longest_substring:
+                    break
+                else:
+                    longest_substring.append(c)
+            longest_substring_length.append(len(longest_substring))
 
-        return len(longest_substring)
+        return max(longest_substring_length)
 
 ##------------------------------ Simple Testing Code ------------------------------##
 
