@@ -14,28 +14,26 @@ class Solution(object):
         :rtype: int
         """
 
-        longest_substring_length = [0]
-
+        lastRepeating = -1
+        longestSubstring = 0
+        positions = {}
         for i in range(len(s)):
-            sub = s[i:]
-            if len(sub) <= max(longest_substring_length):
-                break
-            longest_substring = []
-            for c in sub:
-                if c in longest_substring:
-                    break
-                else:
-                    longest_substring.append(c)
-            longest_substring_length.append(len(longest_substring))
-
-        return max(longest_substring_length)
+            if s[i] in positions and lastRepeating < positions[s[i]]:
+                lastRepeating = positions[s[i]]
+            if i-lastRepeating > longestSubstring:
+                longestSubstring = i-lastRepeating
+            positions[s[i]] = i
+        print lastRepeating
+        print longestSubstring
+        print positions
+        return longestSubstring
 
 ##------------------------------ Simple Testing Code ------------------------------##
 
 solution = Solution()
 longest_substring = solution.lengthOfLongestSubstring("abcabcbb")
 print(longest_substring)
-longest_substring = solution.lengthOfLongestSubstring("bbbbb")
-print(longest_substring)
-longest_substring = solution.lengthOfLongestSubstring("aab")
-print(longest_substring)
+#longest_substring = solution.lengthOfLongestSubstring("bbbbb")
+#print(longest_substring)
+#longest_substring = solution.lengthOfLongestSubstring("aab")
+#print(longest_substring)
