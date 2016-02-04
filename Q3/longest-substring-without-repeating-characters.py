@@ -14,16 +14,16 @@ class Solution(object):
         :rtype: int
         """
 
-        lastRepeating = -1
-        longestSubstring = 0
+        last_repeating = -1
+        longest_substring = 0
         positions = {}
         for i in range(len(s)):
-            if s[i] in positions and lastRepeating < positions[s[i]]:
-                lastRepeating = positions[s[i]]
-            if i-lastRepeating > longestSubstring:
-                longestSubstring = i-lastRepeating
+            if s[i] in positions and last_repeating < positions[s[i]]:
+                last_repeating = positions[s[i]]
+            if i-last_repeating > longestSubstring:
+                longestSubstring = i-last_repeating
             positions[s[i]] = i
-        print lastRepeating
+        print last_repeating
         print longestSubstring
         print positions
         return longestSubstring
