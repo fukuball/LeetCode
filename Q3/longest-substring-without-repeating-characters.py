@@ -20,13 +20,13 @@ class Solution(object):
         for i in range(len(s)):
             if s[i] in positions and last_repeating < positions[s[i]]:
                 last_repeating = positions[s[i]]
-            if i-last_repeating > longestSubstring:
-                longestSubstring = i-last_repeating
+            if i-last_repeating > longest_substring:
+                longest_substring = i-last_repeating
             positions[s[i]] = i
         print last_repeating
-        print longestSubstring
+        print longest_substring
         print positions
-        return longestSubstring
+        return longest_substring
 
 ##------------------------------ Simple Testing Code ------------------------------##
 
