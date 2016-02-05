@@ -23,17 +23,14 @@ class Solution(object):
             if i-last_repeating > longest_substring:
                 longest_substring = i-last_repeating
             positions[s[i]] = i
-        print last_repeating
-        print longest_substring
-        print positions
         return longest_substring
 
 ##------------------------------ Simple Testing Code ------------------------------##
 
 solution = Solution()
-longest_substring = solution.lengthOfLongestSubstring("abcabcbb")
+longest_substring = solution.lengthOfLongestSubstring("abcabcdb")
 print(longest_substring)
-#longest_substring = solution.lengthOfLongestSubstring("bbbbb")
-#print(longest_substring)
-#longest_substring = solution.lengthOfLongestSubstring("aab")
-#print(longest_substring)
+longest_substring = solution.lengthOfLongestSubstring("bbbbb")
+print(longest_substring)
+longest_substring = solution.lengthOfLongestSubstring("aab")
+print(longest_substring)
