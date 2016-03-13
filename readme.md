@@ -4,10 +4,10 @@ My practice on [LeetCode](https://leetcode.com/).
 
 Index
 =========
-- Q1 [Two Sum](https://github.com/fukuball/LeetCode/tree/master/Q1) - Difficulty: Medium
-- Q2 [Add Two Numbers](https://github.com/fukuball/LeetCode/tree/master/Q2) - Difficulty: Medium
-- Q3 [Longest Substring Without Repeating Characters](https://github.com/fukuball/LeetCode/tree/master/Q3) - Difficulty: Medium
-- Q4 [Median of Two Sorted Arrays](https://github.com/fukuball/LeetCode/tree/master/Q4) - Difficulty: Hard
+- Q1 [Two Sum](https://github.com/fukuball/LeetCode/tree/master/Q001) - Difficulty: Medium
+- Q2 [Add Two Numbers](https://github.com/fukuball/LeetCode/tree/master/Q002) - Difficulty: Medium
+- Q3 [Longest Substring Without Repeating Characters](https://github.com/fukuball/LeetCode/tree/master/Q003) - Difficulty: Medium
+- Q4 [Median of Two Sorted Arrays](https://github.com/fukuball/LeetCode/tree/master/Q004) - Difficulty: Hard
 
 License
 =========
